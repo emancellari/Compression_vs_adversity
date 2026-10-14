@@ -26,9 +26,8 @@ Keras downloads ImageNet ResNet50 weights on the first run. Qualities are
 decoded in memory before classification.
 
 Running creates `results/jpeg` and `results/webp`, containing top-five prediction
-graphs, confidence curves, predictions/tracking CSVs, min/max/mean/population SD,
-crossing estimates and run metadata. Use `--overwrite` to repeat a run.
-Only the results for the included clean/adversarial pair are bundled in this folder.
+graphs, confidence curves, predictions/tracking CSVs, min/max/mean/population SD and run metadata. Use `--overwrite` to repeat a run.
+Only the results for the included clean/adversarial pair are bundled in this folder, as test.
 
 ## Use any clean/adversarial pair from any attack
 
