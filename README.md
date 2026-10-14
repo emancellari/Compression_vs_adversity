@@ -23,7 +23,7 @@ python webp_analysis.py --ancestor acorn
 
 Keras downloads ImageNet ResNet50 weights on the first run. Qualities are
 100, 95, 90, 85, 80, 75, 70. Each encoding starts from original pixels and is
-decoded in memory before classification. Compressed images are not saved.
+decoded in memory before classification.
 
 Running creates `results/jpeg` and `results/webp`, containing top-five prediction
 graphs, confidence curves, predictions/tracking CSVs, min/max/mean/population SD,
