@@ -1,0 +1,9 @@
+kind,series,label,variant,statistics_scope,sample_count,average_percent,min_percent,max_percent,standard_deviation_pp
+clean,target,rhinoceros_beetle,original,single_original,1,0.01655901432968676,0.01655901432968676,0.01655901432968676,0.0
+clean,target,rhinoceros_beetle,recompressed,across_measured_compression_qualities,7,0.08119961608567142,0.010498834308236837,0.31519061885774136,0.1068439970429416
+clean,ancestor,acorn,original,single_original,1,95.36988139152527,95.36988139152527,95.36988139152527,0.0
+clean,ancestor,acorn,recompressed,across_measured_compression_qualities,7,90.81669279507229,71.06860280036926,97.91349172592163,9.370186650175642
+adversarial,target,rhinoceros_beetle,original,single_original,1,90.61742424964905,90.61742424964905,90.61742424964905,0.0
+adversarial,target,rhinoceros_beetle,recompressed,across_measured_compression_qualities,7,56.15938646452768,30.142900347709656,85.85343956947327,20.371577230003112
+adversarial,ancestor,acorn,original,single_original,1,0.7353771943598986,0.7353771943598986,0.7353771943598986,0.0
+adversarial,ancestor,acorn,recompressed,across_measured_compression_qualities,7,9.04827273583838,1.4717579819262028,25.027501583099365,7.970730827434542

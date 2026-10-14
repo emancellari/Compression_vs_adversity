@@ -1,0 +1,49 @@
+{
+  "codec": "jpeg",
+  "qualities": [
+    100,
+    95,
+    90,
+    85,
+    80,
+    75,
+    70
+  ],
+  "model": {
+    "classifier": "ResNet50",
+    "dataset": "ImageNet-1k",
+    "weights": "imagenet",
+    "tensorflow_version": "2.13.0",
+    "resize": "224x224, OpenCV INTER_LANCZOS4",
+    "preprocessing": "RGB to Keras ResNet50 caffe preprocessing"
+  },
+  "python_version": "3.8.10",
+  "numpy_version": "1.24.3",
+  "opencv_version": "5.0.0",
+  "inputs": {
+    "clean": {
+      "filename": "clean_acorn1.jpeg",
+      "sha256": "542678968142be1fe5bb7879303df1d1ab7845f2c8cae93394fb73c94fc52a55",
+      "shape": [
+        374,
+        500,
+        3
+      ]
+    },
+    "adversarial": {
+      "filename": "r50_adv_acorn1_0.90.png",
+      "sha256": "a69c1c4631c146d265fdb5d63d6280c0eea6e360a9a191381878e3d99723e962",
+      "shape": [
+        374,
+        500,
+        3
+      ]
+    }
+  },
+  "target_label": "rhinoceros_beetle",
+  "ancestor_label": "acorn",
+  "target_selection": "original_adversarial_top1",
+  "ancestor_selection": "explicit_label",
+  "screening": "none: the supplied pair is always measured",
+  "encoded_images_saved": false
+}

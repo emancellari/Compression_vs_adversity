@@ -1,0 +1,17 @@
+kind,source_image,variant,quality,format,encoded_bytes,target_label,ancestor_label,target_confidence_percent,ancestor_confidence_percent,difference_percentage_points,top1_label,ancestor_is_top1
+clean,clean_acorn1.jpeg,original,,JPEG,57444,rhinoceros_beetle,acorn,0.01655901432968676,95.36988139152527,-95.35332237719558,acorn,True
+clean,clean_acorn1.jpeg,recompressed,100,WEBP,99928,rhinoceros_beetle,acorn,0.02180415904149413,95.96672654151917,-95.94492238247767,acorn,True
+clean,clean_acorn1.jpeg,recompressed,95,WEBP,78304,rhinoceros_beetle,acorn,0.018731312593445182,96.03135585784912,-96.01262454525568,acorn,True
+clean,clean_acorn1.jpeg,recompressed,90,WEBP,62508,rhinoceros_beetle,acorn,0.02424755657557398,94.59146857261658,-94.567221016041,acorn,True
+clean,clean_acorn1.jpeg,recompressed,85,WEBP,49804,rhinoceros_beetle,acorn,0.011378512135706842,98.08947443962097,-98.07809592748526,acorn,True
+clean,clean_acorn1.jpeg,recompressed,80,WEBP,40844,rhinoceros_beetle,acorn,0.048292751307599247,91.51419997215271,-91.46590722084511,acorn,True
+clean,clean_acorn1.jpeg,recompressed,75,WEBP,34024,rhinoceros_beetle,acorn,0.019628411973826587,97.70077466964722,-97.68114625767339,acorn,True
+clean,clean_acorn1.jpeg,recompressed,70,WEBP,31778,rhinoceros_beetle,acorn,0.022562920639757067,97.79865145683289,-97.77608853619313,acorn,True
+adversarial,r50_adv_acorn1_0.90.png,original,,PNG,382185,rhinoceros_beetle,acorn,90.61742424964905,0.7353771943598986,89.88204705528915,rhinoceros_beetle,False
+adversarial,r50_adv_acorn1_0.90.png,recompressed,100,WEBP,102072,rhinoceros_beetle,acorn,82.30355381965637,2.201719209551811,80.10183461010456,rhinoceros_beetle,False
+adversarial,r50_adv_acorn1_0.90.png,recompressed,95,WEBP,78788,rhinoceros_beetle,acorn,72.32495546340942,3.816474601626396,68.50848086178303,rhinoceros_beetle,False
+adversarial,r50_adv_acorn1_0.90.png,recompressed,90,WEBP,62836,rhinoceros_beetle,acorn,63.44212889671326,4.610513150691986,58.83161574602127,rhinoceros_beetle,False
+adversarial,r50_adv_acorn1_0.90.png,recompressed,85,WEBP,50118,rhinoceros_beetle,acorn,51.787835359573364,16.293807327747345,35.49402803182602,rhinoceros_beetle,False
+adversarial,r50_adv_acorn1_0.90.png,recompressed,80,WEBP,41018,rhinoceros_beetle,acorn,17.577140033245087,41.57024621963501,-23.993106186389923,acorn,True
+adversarial,r50_adv_acorn1_0.90.png,recompressed,75,WEBP,34240,rhinoceros_beetle,acorn,15.943808853626251,39.96730446815491,-24.023495614528656,acorn,True
+adversarial,r50_adv_acorn1_0.90.png,recompressed,70,WEBP,31922,rhinoceros_beetle,acorn,7.394465059041977,53.41132879257202,-46.016863733530045,acorn,True
