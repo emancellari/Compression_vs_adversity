@@ -68,17 +68,7 @@ def your_factory():
 ```
 
 Adapters receive OpenCV BGR pixels and must return finite probabilities in
-[0,1] summing to 1. The built-in ResNet50 uses RGB, 224×224 Lanczos4 resize,
-and Keras ResNet50 preprocessing.
+[0,1] summing to 1. The built-in ResNet50 uses RGB, 224×224 Lanczos resize,
+and Keras ResNet50 trained on ImageNet preprocessing.
 
-## Statistics and validation
 
-With one pair, SD across images at an individual quality is zero; mean/min/max
-coincide. `confidence_statistics.csv` separately summarizes variation across
-the seven measured qualities, excluding the original baseline. This is not
-an accuracy or attack-success statistic. JPEG/WebP quality numbers are
-codec-specific; WebP100 is lossy. Crossings are linear estimates.
-
-Both scripts were tested locally with the included NbuGAN-0.90 pair and real
-pretrained ResNet50, using the existing Python 3.8 research environment. The
-Python 3.10/3.11 fresh-install recipe has not been separately tested.
