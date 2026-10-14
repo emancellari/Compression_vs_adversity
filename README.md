@@ -1,7 +1,7 @@
 # Image Compression versus Adversity
 
 A single clean/adversarial pair analyzed with **JPEG** and **lossy WebP**.
-The included test is **NbuGAN-0.90, ResNet50, ImageNet, acorn1**.
+The included test is **NbuGAN-0.90, ResNet50, ImageNet, acorn1 (ID:988)**.
 
 ## Files
 
