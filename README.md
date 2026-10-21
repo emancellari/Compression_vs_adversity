@@ -10,6 +10,7 @@ The included test is **NbuGAN-0.90, ResNet50, ImageNet, acorn1 (ID:988)**.
 - `compression_analysis.py`: shared classification, compression and reporting.
 - `examples/`: one clean image and its respective adversarial image.
 - `requirements.txt`: dependencies.
+- 'appendix.pdf': Supplementary documentation -> Figures 5 - 20 and Table 6
 
 ## Run the included test
 
